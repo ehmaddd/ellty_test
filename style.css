@@ -15,8 +15,9 @@
 .grid-container {
   display: grid;
   gap: 10px;
-  background-color: #2196F3;
   padding: 10px;
+  grid-auto-rows: 1fr;
+  height: 100%;
 }
 
 .grid-container > div {
