@@ -10,31 +10,24 @@
   border: 1px solid #EEEEEE;
   border-radius: 6px;
   box-shadow: 0px 8px 15px 0px #1414141F;
+  box-sizing: border-box;
 }
 
-.grid-container {
-  display: grid;
-  gap: 10px;
-  padding: 10px;
-  grid-auto-rows: 1fr;
-  height: 100%;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-
-.flex-container {
+.header {
+  height: 25px;
+  padding: 8px 15px 8px 22px;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
-.flex-container > div {
-  text-align: center;
-  line-height: 75px;
-  font-size: 20px;
+.title {
+  margin: auto 0;
+}
+
+.main {
+  padding: 8px 15px 8px 22px;
+}
+
+.footer {
+  padding: 8px 15px 8px 22px;
 }
