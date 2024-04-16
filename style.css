@@ -87,7 +87,6 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* Style for the tick inside the checkbox */
 input[type="checkbox"]::before {
   content: "";
   display: block;
@@ -105,7 +104,11 @@ input[type="checkbox"]::before {
   opacity: 0;
 }
 
-/* Hover effect for the checkbox */
 input[type="checkbox"]:hover::before {
+  opacity: 0.2;
+}
+
+input[type="checkbox"]:active::before {
   opacity: 0.5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
